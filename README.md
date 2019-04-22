@@ -1,7 +1,7 @@
 ## BlazeMeter Taurus and JMeter container
 See https://hub.docker.com/r/erxx/bzt-jm
 ### Taurus / JMeter layered container	bzt-erx:v0.4.1 
-See https://github.com/erxTesting/erx-bzt-container
+See https://github.com/erxTesting/bzt-jm
 
 **Future**
 * incorporate functionality from prior Terraform/EC2 version of LG; 
@@ -27,10 +27,10 @@ See https://github.com/erxTesting/erx-bzt-container
 
 **Build:**
 ```shell
-$ docker build -t bzt-erx:latest .
+$ docker build -t bzt-jm:latest .
 ```
 
 **Run:**
 ```shell
-$ docker run -t -i --rm bzt-erx:<VERSION> /sbin/my_init -- bash -l
+$ docker run -t -i --rm bzt-jm:<VERSION> /sbin/my_init -- bash -l
 ```
